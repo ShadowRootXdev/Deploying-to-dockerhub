@@ -1,0 +1,20 @@
+{
+  "name": "devops",
+  "version": "1.0.0",
+  "description": "create image and push to dockerhub",
+  "license": "ISC",
+  "author": "shadowrootxdev",
+  "type": "module",
+  "main": "Server.js",
+  "scripts": {
+    "test": "npm run dev",
+    "start": "nodemon server.js"
+  },
+  "dependencies": {
+    "bcrypt": "^6.0.0",
+    "bcryptjs": "^3.0.3",
+    "express": "^5.2.1",
+    "mongoose": "^9.2.1",
+    "nodemon": "^3.1.11"
+  }
+}
